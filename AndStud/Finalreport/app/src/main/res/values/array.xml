@@ -1,0 +1,31 @@
+<resources>
+    <string-array name="sex">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>11 ~ 15</item>
+        <item>15 ~ 20</item>
+        <item>21 ~ 25</item>
+        <item>26 ~ 30</item>
+        <item>31 ~ 35</item>
+        <item>36 ~ 40</item>
+        <item>41 ~ 45</item>
+        <item>46 ~ 50</item>
+        <item>51 ~ 55</item>
+        <item>56 ~ 60</item>
+        <item>61 ~ 65</item>
+        <item>66 ~ 70</item>
+        <item>71 ~ 75</item>
+        <item>76 ~ 80</item>
+        <item>81 ~ 85</item>
+        <item>86 ~ 90</item>
+        <item>91 ~ 95</item>
+        <item>96 ~ 100</item>
+        <item>101 ~ 105</item>
+        <item>106 ~ 110</item>
+        <item>111 ~ 115</item>
+        <item>116 ~ 120</item>
+    </string-array>
+</resources>

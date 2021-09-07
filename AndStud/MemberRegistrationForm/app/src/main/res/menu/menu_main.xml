@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="New" />
+    <item
+        android:id="@+id/action_del"
+        android:icon="@android:drawable/ic_input_delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/action_list"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="List"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

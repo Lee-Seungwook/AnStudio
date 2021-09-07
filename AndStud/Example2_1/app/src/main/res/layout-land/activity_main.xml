@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85F305"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreBoard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:text="Score Board"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#88FA05"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textSize="180dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreBoard"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="124dp"
+        android:layout_height="292dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="132dp"
+        android:background="#F8F5F5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreBoard"
+        app:layout_constraintVertical_bias="0.412"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="113dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="none"
+            android:backgroundTint="#FFEB3B"
+            android:text="+"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/minusButton"
+            android:layout_width="114dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="-"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="113dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"
+            android:text="RESET"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
